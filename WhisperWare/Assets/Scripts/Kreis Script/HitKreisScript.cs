@@ -12,20 +12,17 @@ public class HitKreisScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
-        private void OnCollisionEnter2D(Collision2D collision)
-        {
-            if (collision.gameObject.CompareTag("Dreieck"))
-            {
-                Console.WriteLine("Quadrat hat das Dreieck getroffen!");
-            }
-        }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-
-            Console.WriteLine("Test");
+            print("hier");
+            if (other.CompareTag("Dreieck"))
+            {
+                Console.WriteLine("Test");
+            }
+           
         }
 }
