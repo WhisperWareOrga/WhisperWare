@@ -301,10 +301,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WhisperWare.Wimmelbild.WimmelbildPuzzle
   solutionOrder:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1545250790}
+  - {fileID: 822253241}
+  - {fileID: 1519827798}
+  - {fileID: 1306546079}
   enforceSequence: 1
   showNames: 1
   gameCamera: {fileID: 1156252634}
