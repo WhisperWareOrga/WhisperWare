@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c659c46cfcd2a74dac7a0864d473901, type: 3}
+  m_Name: NPC Dialog0
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  speakername: NPC
+  lines:
+  - you are blessed
+  - 'i know right
+
+'
+  - 'i know right 3
+
+'
+  - 4
+  - Fest
+  choices:
+  - text: What a name!
+    next: {fileID: 11400000, guid: c65807589071aac4285ae4cd962e40c2, type: 2}
+  - text: Nice to meet you
+    next: {fileID: 11400000, guid: 27aaa811618b64b45805e34755b165a6, type: 2}
