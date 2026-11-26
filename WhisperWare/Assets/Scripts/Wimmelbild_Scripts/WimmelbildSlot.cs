@@ -20,7 +20,6 @@ namespace WhisperWare.Wimmelbild
             Index = index;
             name = "Ziel " + (index + 1);
             if (label != null)
-                label.text = (index + 1) + (showName ? "  " + item.DisplayName : string.Empty);
             SetState(false, false);
         }
 
