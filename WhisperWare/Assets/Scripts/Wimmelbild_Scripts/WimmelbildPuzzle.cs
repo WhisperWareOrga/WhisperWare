@@ -290,7 +290,6 @@ namespace WhisperWare.Wimmelbild
             PlacedCount++;
             IsCompleted = PlacedCount == roundOrder.Count;
             UpdateProgress();
-            SetFeedback(IsCompleted ? "Geschafft! Alle Objekte sind richtig eingeordnet." : "Richtig! " + item.DisplayName + " ist an seinem Platz.");
             // Zustand und Anzeige zuerst aktualisieren, dann externe Spielereignisse ausloesen.
             onCorrectPlacement.Invoke();
             if (IsCompleted) onPuzzleCompleted.Invoke();

@@ -8,7 +8,6 @@ namespace WhisperWare.Wimmelbild
     {
         [SerializeField] private string displayName;
 
-        public string DisplayName => string.IsNullOrWhiteSpace(displayName) ? gameObject.name : displayName;
         public SpriteRenderer Renderer => GetComponent<SpriteRenderer>();
         public Collider2D HitArea => GetComponent<Collider2D>();
         public bool IsPlaced { get; private set; }
